@@ -7,6 +7,8 @@ for(let i= 0; i <= 15; i += 1) {
     console.log(holiday[i]);
 }
 
-while (holiday < 16) {
-    console.log(holiday);
+let counter = 0;
+while (counter < holiday.length) {
+    console.log(holiday[counter]);
+    counter++;
 }
